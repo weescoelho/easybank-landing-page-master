@@ -1,0 +1,73 @@
+/* Atribuição */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* RESET */
+
+:root{
+  font-size:62.5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif;
+  font-size:1.6rem;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+/* General Styles */
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+
+.header{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.req-invite-btn {
+  font-size:1.4rem;
+  background: linear-gradient(90deg, #31CF6E 0%, #2CB9CA 100%);
+  color:#fff;
+  padding: 10px 30px;
+  border-radius:20px;
+}
+
+.nav-menu ul{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.nav-menu ul li+li{
+  margin-left: 30px;
+}
+
+.nav-menu li a{
+  color:hsl(233, 8%, 62%);
+  font-size:1.4rem;
+}
