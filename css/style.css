@@ -39,25 +39,37 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 .container{
   max-width: 1140px;
   margin: 0 auto;
+  display: flex;
 }
 
 /* NAVBAR */
 
-.header{
-  padding: 20px 0;
+header{
+  background:#fff;
+  z-index: 100;
+  display: block;
+  position: relative;
+}
+
+.navmenu{
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
+  padding: 20px 0;
+  height: 70px;
 }
 
 .req-invite-btn {
   font-size:1.4rem;
   background: linear-gradient(90deg, #31CF6E 0%, #2CB9CA 100%);
   color:#fff;
-  padding: 10px 30px;
-  border-radius:20px;
+  padding: 15px 30px;
+  border-radius:30px;
 }
 
+.req-invite-btn:hover {
+  background: linear-gradient(90deg, #8bfcb6 -50%, #7cf2ff 100%);
+}
 .nav-menu ul{
   display: flex;
   flex-wrap:wrap;
@@ -70,4 +82,45 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 .nav-menu li a{
   color:hsl(233, 8%, 62%);
   font-size:1.4rem;
+  padding: 20px 0;
+}
+.nav-menu li a:hover{
+  border-bottom:3px solid;
+  border-image-source: linear-gradient(90deg, #31CF6E 0%, #2CB9CA 100%);
+  border-image-slice: 1;
+}
+
+/* Intro */
+
+.intro{
+  background-image:url(../images/bg-intro-desktop.svg);
+  background-size: 80%;
+  height: 70rem;
+  background-repeat:no-repeat;
+  background-position: 200% 100%;
+  z-index: -1;
+}
+
+.intro-content{
+  margin-top:10em;
+}
+
+.intro-content h1{
+  color:hsl(233, 26%, 24%);
+  font-size: 4.8rem;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.intro-content p{
+  color:hsl(233, 8%, 62%);
+  max-width: 400px;
+  margin-bottom: 60px;
+}
+
+.bg-intro-mockups{
+  position:absolute;
+  top:-7rem;
+  right: 0;
+  z-index: 1;
 }
