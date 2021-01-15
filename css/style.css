@@ -34,12 +34,16 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 	font-weight: normal;
 }
 
+img{
+  max-width: 100%;
+  display: block;
+}
+
 /* General Styles */
 
 .container{
   max-width: 1140px;
   margin: 0 auto;
-  display: flex;
 }
 
 /* NAVBAR */
@@ -102,7 +106,7 @@ header{
 }
 
 .intro-content{
-  margin-top:10em;
+  padding-top:10em;
 }
 
 .intro-content h1{
@@ -124,3 +128,155 @@ header{
   right: 0;
   z-index: 1;
 }
+
+/* Subtitle */
+
+.grid-section{
+  background-color:hsl(220, 16%, 96%);
+  padding: 80px 0;
+}
+
+.grid-section h2{
+  color:hsl(233, 26%, 24%);
+  font-size:3.6rem;
+  margin-bottom: 30px;
+}
+
+.grid-section p{
+  color:hsl(233, 8%, 62%);
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.grid-container{
+  margin-top: 60px;
+  display: flex;
+}
+
+.grid-container div + div{
+  margin-left: 30px;
+}
+
+.grid-item h3{
+  font-size: 2.4rem;
+  margin: 20px 0;
+  color:hsl(233, 26%, 24%);
+}
+
+.grid-item p{
+  max-width: 300px;
+}
+
+/* Articles Section */
+
+.article-section{
+  padding:80px 0;
+  background:hsl(0, 0%, 98%);
+}
+.article-section h2{
+  color:hsl(233, 26%, 24%);
+  font-size:3.6rem;
+  margin-bottom: 30px;
+}
+
+.article-call{
+  background:hsl(0, 0%, 100%);
+  padding: 25px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.article-grid{
+  display: flex;
+}
+
+.article-grid article + article{
+  margin-left: 20px;
+}
+
+.article-grid img{
+  border-radius: 5px 5px 0 0; 
+
+}
+
+.article-grid article h4{
+  color:hsl(233, 8%, 62%);
+  font-size:1rem;
+  padding-bottom: 10px;
+}
+
+.article-grid article p{
+  color:hsl(233, 8%, 62%);
+  font-size:1.2rem;
+  line-height: 1.5;
+  max-width: 190px;
+  padding-top: 10px;
+}
+
+.article-grid a{
+  font-size:1.8rem;
+  color:hsl(233, 26%, 24%);
+}
+
+.article-grid a:hover{
+  color:hsl(192, 70%, 51%);
+}
+
+/* footer */
+
+footer{
+  background:hsl(233, 26%, 24%);
+  padding: 60px 0px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+.social{
+  display: flex;
+  margin-top: 40px;
+}
+
+.social li a img{
+  fill:#2CB9CA;
+}
+
+.social li+li{
+  margin-left: 10px;
+}
+
+.icon-footer:hover{
+  fill:hsl(136, 65%, 51%);
+}
+
+.nav-footer li{
+  margin-bottom: 20px;
+}
+
+.nav-footer a{
+ color:hsl(233, 8%, 62%);
+}
+
+.nav-footer a:hover{
+  color:hsl(136, 65%, 51%);
+}
+
+.copy{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items:flex-end;
+}
+
+.copy a{
+  max-width: 180px;
+}
+
+.copy p{
+  color:hsl(233, 8%, 62%);
+  margin-top: 20px;
+}
+ 
