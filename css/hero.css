@@ -1,0 +1,34 @@
+/* Intro */
+
+.intro{
+  background-image:url(../images/bg-intro-desktop.svg);
+  background-size: 80%;
+  height: 70rem;
+  background-repeat:no-repeat;
+  background-position: 200% 100%;
+  z-index: -1;
+}
+
+.intro-content{
+  padding-top:10em;
+}
+
+.intro-content h1{
+  color:hsl(233, 26%, 24%);
+  font-size: 4.8rem;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.intro-content p{
+  color:hsl(233, 8%, 62%);
+  max-width: 400px;
+  margin-bottom: 60px;
+}
+
+.bg-intro-mockups{
+  position:absolute;
+  top:-7rem;
+  right: 0;
+  z-index: 1;
+}

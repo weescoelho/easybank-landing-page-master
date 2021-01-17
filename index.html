@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>Frontend Mentor | Easybank landing page</title>
 </head>
 
@@ -15,7 +16,7 @@
   <header>
     <div class="container navmenu">
       <a class="brand" href="#"><img src="images/logo.svg" alt="Logo"></a>
-      <nav class="nav-menu">
+      <nav data-mobile="menu-desktop" class="nav-menu">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -25,11 +26,27 @@
         </ul>
       </nav>
       <a class="req-invite-btn" href="#">Request Invite</a>
+      <i data-mobile="open" class="fas fa-bars"></i>
+      <i data-mobile="close" class="fas fa-times"></i>
     </div>
   </header>
+  
+  <section class="modal-container" data-mobile="container">
+    <div class="modal">
+      <nav class="modal-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
 
   <section class="intro">
-    <div class="container">
+    <div class="container intro-container">
       <div class="intro-content">
         <h1>Next generation digital banking</h1>
         <p>Take your financial life online. Your Easybank account will be a one-stop-shop
@@ -152,7 +169,7 @@
       </div>
     </div>
   </footer>
-
+<script type="module" src="js/script.js"></script>
 </body>
 
 </html>

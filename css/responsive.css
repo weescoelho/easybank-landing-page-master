@@ -1,0 +1,120 @@
+/* Container */
+
+@media (min-width: 739px) and (max-width: 979px) {
+  /* General Styles */
+  :root {
+    font-size: 50%;
+  }
+
+  .container {
+    max-width: 640px;
+  }
+  .req-invite-btn {
+    display: none;
+  }
+  /* Hero */
+
+  .intro {
+    background-position: 200% 300%;
+  }
+  .bg-intro-mockups {
+    position: absolute;
+    top: -7rem;
+    right: 0;
+    z-index: 1;
+    width: 450px;
+  }
+  .intro-content p {
+    color: hsl(233, 8%, 62%);
+    max-width: 250px;
+    margin-bottom: 60px;
+  }
+  .intro-content h1 {
+    color: hsl(233, 26%, 24%);
+    font-size: 4.8rem;
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 739px) {
+  :root {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 375px;
+  }
+  .req-invite-btn {
+    display: none;
+  }
+  /* Hero */
+
+  .intro{
+    background-image:url(../images/bg-intro-desktop.svg);
+    background-size: 200%;
+    height: 70rem;
+    background-repeat:no-repeat;
+    background-position: 30% 200%;
+    z-index: 1;
+  }
+
+  .bg-intro-mockups {
+    position: absolute;
+    top: -7rem;
+    right: 0;
+    z-index: 1;
+    width: 400px;
+  }
+  .intro-content{
+    padding-top:450px;
+  }
+  .intro-content p {
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 60px;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .intro-content h1 {
+    color: hsl(233, 26%, 24%);
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* Grid Section */
+
+  .grid-section{
+    margin-top: 120px;
+    text-align: center;
+  }
+  .grid-container{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .grid-item{
+    margin: 0 auto 20px auto;
+  }
+  .grid-item img{
+    margin: 0 auto;
+  }
+  /* Articles */
+
+  .article-grid{
+    flex-wrap: wrap;
+  }
+  
+  .article-grid article + article{
+    margin-left: 0px;
+  }
+  /* Footer */
+  .footer-container{
+   flex-direction: column;
+   text-align: center;
+  }
+  .social{
+    margin:40px auto;
+  }
+
+  .social li{
+    margin-left: 10px;
+  }
+}

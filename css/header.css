@@ -1,0 +1,47 @@
+/* NAVBAR */
+
+header{
+  background:#fff;
+  z-index: 100;
+  display: block;
+  position: relative;
+}
+
+.navmenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  height: 70px;
+}
+
+.req-invite-btn {
+  font-size:1.4rem;
+  background: linear-gradient(90deg, #31CF6E 0%, #2CB9CA 100%);
+  color:#fff;
+  padding: 15px 30px;
+  border-radius:30px;
+}
+
+.req-invite-btn:hover {
+  background: linear-gradient(90deg, #8bfcb6 -50%, #7cf2ff 100%);
+}
+.nav-menu ul{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.nav-menu ul li+li{
+  margin-left: 30px;
+}
+
+.nav-menu li a{
+  color:hsl(233, 8%, 62%);
+  font-size:1.4rem;
+  padding: 20px 0;
+}
+.nav-menu li a:hover{
+  border-bottom:3px solid;
+  border-image-source: linear-gradient(90deg, #31CF6E 0%, #2CB9CA 100%);
+  border-image-slice: 1;
+}

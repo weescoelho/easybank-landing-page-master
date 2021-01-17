@@ -1,0 +1,12 @@
+
+/* General Styles */
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}

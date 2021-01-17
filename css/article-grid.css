@@ -1,0 +1,53 @@
+/* Articles Section */
+
+.article-section{
+  padding:80px 0;
+  background:hsl(0, 0%, 98%);
+}
+.article-section h2{
+  color:hsl(233, 26%, 24%);
+  font-size:3.6rem;
+  margin-bottom: 30px;
+}
+
+.article-call{
+  background:hsl(0, 0%, 100%);
+  padding: 25px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.article-grid{
+  display: flex;
+}
+
+.article-grid article + article{
+  margin-left: 20px;
+}
+
+.article-grid img{
+  border-radius: 5px 5px 0 0; 
+
+}
+
+.article-grid article h4{
+  color:hsl(233, 8%, 62%);
+  font-size:1rem;
+  padding-bottom: 10px;
+}
+
+.article-grid article p{
+  color:hsl(233, 8%, 62%);
+  font-size:1.2rem;
+  line-height: 1.5;
+  max-width: 190px;
+  padding-top: 10px;
+}
+
+.article-grid a{
+  font-size:1.8rem;
+  color:hsl(233, 26%, 24%);
+}
+
+.article-grid a:hover{
+  color:hsl(192, 70%, 51%);
+}
