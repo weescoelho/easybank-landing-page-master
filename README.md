@@ -67,7 +67,8 @@ Challenge by Frontend Mentor. Coded by Weslley Coelho.
 
 Feito com :heart: por <a href="https://github.com/weescoelho" target="_blank">Weslley Coelho</a>
 
+```
+
 &#xa0;
 
 <a href="#top">Voltar para o topo</a>
-```
