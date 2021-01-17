@@ -61,7 +61,7 @@
   .bg-intro-mockups {
     position: absolute;
     top: -7rem;
-    right: 30px;
+    right: 0px;
     z-index: 1;
     width: 400px;
   }
