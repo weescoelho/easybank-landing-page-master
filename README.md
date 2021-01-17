@@ -61,13 +61,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 # Clone este repositório
 $ git clone https://github.com/weescoelho/easybank-landing-page-master
 
+```
+
 ## :memo: Licença ##
 
 Challenge by Frontend Mentor. Coded by Weslley Coelho.
 
 Feito com :heart: por <a href="https://github.com/weescoelho" target="_blank">Weslley Coelho</a>
 
-```
 
 &#xa0;
 
