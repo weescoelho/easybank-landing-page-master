@@ -98,6 +98,10 @@
   }
   /* Articles */
 
+  .article-section{
+    text-align: center;
+  }
+
   .article-grid{
     flex-wrap: wrap;
   }
